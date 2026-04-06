@@ -1,0 +1,44 @@
+- title: "Spam Detection System (ML)"
+  type: "Machine Learning"
+  period: "2024"
+  description: >
+    Developed an email spam classification system using supervised machine learning models
+    including Naïve Bayes, Random Forest, and SVM. Built a simple web interface to make the
+    tool accessible to users.
+  impact:
+    - "Improved email filtering accuracy using multiple ML models"
+    - "Demonstrated practical ML deployment with user interface"
+  tech:
+    - "Python"
+    - "Scikit-learn"
+    - "Flask"
+  link: "YOUR-GITHUB"
+
+- title: "Cybersecurity Attack Simulation"
+  type: "Cybersecurity + Analytics"
+  period: "2023"
+  description: >
+    Simulated a backdoor attack scenario to identify network vulnerabilities and demonstrate
+    security risks in real-world systems.
+  impact:
+    - "Awarded Best Project at Auston Technology Fair 2023"
+    - "Provided insights into system vulnerabilities and risk mitigation"
+  tech:
+    - "Network Analysis"
+    - "Security Testing"
+  link: "YOUR-GITHUB"
+
+- title: "Retail App User Behavior Analysis"
+  type: "Business Analytics"
+  period: "2024"
+  description: >
+    Analyzed user behavior data from a loyalty rewards application to improve customer
+    engagement and optimize promotional strategies.
+  impact:
+    - "Identified user trends to improve marketing strategies"
+    - "Supported decision-making with data insights"
+  tech:
+    - "SQL"
+    - "Excel"
+    - "Data Analysis"
+  link: "YOUR-GITHUB"
