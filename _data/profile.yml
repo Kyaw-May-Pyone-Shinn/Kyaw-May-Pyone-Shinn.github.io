@@ -1,0 +1,64 @@
+name: "Kyaw May Pyone Shinn"
+
+headline: "Data Analyst | Business Analyst | Business Intelligence (BI)"
+
+location: "Dublin, Ireland"
+email: "kmpshinn@gmail.com"
+phone: "0870339616"
+
+linkedin: "www.linkedin.com/in/kyaw-may-pyone-shinn"
+github: "YOUR-GITHUB"
+
+summary: >
+  MSc Data Analytics student with strong expertise in data-driven problem solving,
+  business intelligence, and analytics. Experienced in transforming raw data into
+  actionable insights through dashboards, machine learning, and business analysis.
+  Passionate about bridging the gap between technical data solutions and business strategy.
+
+skills:
+  - SQL
+  - Power BI
+  - Tableau
+  - Excel
+  - Python
+  - R
+  - Data Analysis
+  - Machine Learning
+  - Business Intelligence
+  - CRM Tools
+  - Project Management
+  - Process Improvement
+
+tools:
+  - Power BI
+  - Tableau
+  - Excel
+  - SQL Server
+  - MongoDB
+  - Python (Pandas, Scikit-learn)
+  - R
+  - Jupyter Notebook
+
+experience:
+  - role: "International Peer Mentor & Lab Assistant"
+    company: "National College of Ireland"
+    period: "June 2025 – Present"
+    details
+      - "Supported international student integration and engagement across academic programs"
+      - "Provided academic and technical assistance in analytics and computing labs"
+      - "Enhanced student experience through structured mentoring and problem-solving"
+
+  - role: "IT Intern"
+    company: "City Holdings Co., Ltd"
+    period: "Feb 2024 – May 2024"
+    details:
+      - "Improved user experience of City Rewards App using data-driven insights"
+      - "Analyzed customer behavior data to optimize promotional strategies"
+      - "Reduced system issues through debugging and monitoring"
+
+  - role: "IT Intern"
+    company: "Ayeyarwady Bank"
+    period: "Mar 2023 – May 2023"
+    details:
+      - "Monitored and analyzed network performance data"
+      - "Identified efficiency improvements using data analytics techniques"
