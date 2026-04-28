@@ -1,0 +1,37 @@
+<script src="https://cdn.tailwindcss.com"></script>
+
+<script>
+tailwind.config = {
+  theme: {
+    extend: {
+      colors: {
+        bg: '#0b1020',
+        'bg-soft': '#121933',
+        panel: 'rgba(255,255,255,0.06)',
+        border: 'rgba(255,255,255,0.12)',
+        text: '#edf2ff',
+        muted: '#b8c1e0',
+        brand: '#7c9cff',
+        'brand-2': '#6ee7f9',
+        accent: '#8b5cf6'
+      },
+      boxShadow: {
+        glass: '0 20px 60px rgba(0,0,0,0.35)'
+      },
+      borderRadius: {
+        xl2: '22px'
+      }
+    }
+  }
+}
+</script>
+
+<style>
+body {
+  font-family: 'Inter', sans-serif;
+  background:
+    radial-gradient(circle at top left, rgba(124,156,255,0.18), transparent 30%),
+    radial-gradient(circle at top right, rgba(110,231,249,0.14), transparent 28%),
+    linear-gradient(180deg, #0a0f1e 0%, #0b1020 100%);
+}
+</style>
