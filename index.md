@@ -1,42 +1,81 @@
-<h1>Kyaw May Pyone Shinn</h1>
+---
+layout: default
+---
 
-<p class="hero-headline">
-Data Analyst • Business Analyst • BI Specialist
-</p>
+<section class="py-20">
+  <div class="max-w-6xl mx-auto px-4 grid md:grid-cols-2 gap-10 items-center">
 
-<p class="hero-summary">
-I transform raw data into actionable business insights. My work combines
-data analysis, machine learning, and business understanding to support
-better decision-making and improve performance.
-</p>
+    <div>
+      <p class="text-brand-2 uppercase text-sm font-bold mb-4">
+        AVAILABLE FOR ANALYST ROLES
+      </p>
 
-<section class="section">
-  <div class="container">
-    <div class="section-heading">
-      <span class="section-tag">What I Do</span>
-      <h2>Bridging Data and Business</h2>
+      <h1 class="text-5xl font-extrabold mb-4">
+        Kyaw May Pyone Shinn
+      </h1>
+
+      <p class="text-xl text-muted mb-4 font-semibold">
+        Data Analyst • Business Analyst • BI Specialist
+      </p>
+
+      <p class="text-muted mb-6">
+        I transform raw data into actionable business insights using analytics,
+        machine learning, and business intelligence tools.
+      </p>
+
+      <div class="flex gap-4">
+        <a href="#projects" class="px-6 py-3 rounded-full bg-gradient-to-r from-brand to-accent text-white font-bold">
+          View Projects
+        </a>
+      </div>
     </div>
 
-    <div class="grid two-col">
-      <div class="panel">
-        <h3>Data Analysis</h3>
-        <p>Cleaning, analyzing, and interpreting data to extract meaningful insights.</p>
-      </div>
+    <div class="bg-panel border border-border rounded-xl2 p-6 shadow-glass">
+      <p class="text-brand-2 text-xs uppercase">Core Stack</p>
+      <p>SQL • Power BI • Python</p>
+    </div>
 
-      <div class="panel">
-        <h3>Business Intelligence</h3>
-        <p>Designing dashboards and KPI reporting systems for business decision-making.</p>
-      </div>
+  </div>
+</section>
 
-      <div class="panel">
-        <h3>Machine Learning</h3>
-        <p>Building predictive models such as classification and forecasting systems.</p>
-      </div>
+<section id="skills" class="py-20">
+  <div class="max-w-6xl mx-auto px-4">
+    <h2 class="text-3xl font-bold mb-6">Skills</h2>
 
-      <div class="panel">
-        <h3>Business Analysis</h3>
-        <p>Understanding requirements, improving processes, and aligning data with business goals.</p>
+    <div class="flex flex-wrap gap-3">
+      {% for skill in site.data.profile.skills %}
+      <span class="px-4 py-2 bg-brand/10 border border-brand/20 rounded-full">
+        {{ skill }}
+      </span>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section id="projects" class="py-20">
+  <div class="max-w-6xl mx-auto px-4">
+    <h2 class="text-3xl font-bold mb-10">Projects</h2>
+
+    <div class="grid md:grid-cols-2 gap-6">
+      {% for project in site.data.projects %}
+      <div class="bg-panel border border-border p-6 rounded-xl2 shadow-glass">
+
+        <div class="flex justify-between text-xs text-brand-2 mb-2">
+          <span>{{ project.type }}</span>
+          <span>{{ project.period }}</span>
+        </div>
+
+        <h3 class="text-xl font-bold mb-2">{{ project.title }}</h3>
+        <p class="text-muted mb-4">{{ project.description }}</p>
+
+        <ul class="text-sm text-muted mb-4">
+          {% for item in project.impact %}
+          <li>• {{ item }}</li>
+          {% endfor %}
+        </ul>
+
       </div>
+      {% endfor %}
     </div>
   </div>
 </section>
