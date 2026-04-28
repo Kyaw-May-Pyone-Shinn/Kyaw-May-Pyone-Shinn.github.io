@@ -6,7 +6,7 @@ location: "Dublin, Ireland"
 email: "kmpshinn@gmail.com"
 phone: "0870339616"
 
-linkedin: "www.linkedin.com/in/kyaw-may-pyone-shinn"
+linkedin: "YOUR-LINKEDIN"
 github: "YOUR-GITHUB"
 
 summary: >
@@ -42,8 +42,8 @@ tools:
 experience:
   - role: "International Peer Mentor & Lab Assistant"
     company: "National College of Ireland"
-    period: "June 2025 – Present"
-    details
+    period: "Jun 2025 – Present"
+    details:
       - "Supported international student integration and engagement across academic programs"
       - "Provided academic and technical assistance in analytics and computing labs"
       - "Enhanced student experience through structured mentoring and problem-solving"
