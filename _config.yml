@@ -1,6 +1,23 @@
-# theme: jekyll-theme-minimal
-title: "Kyaw May Pyone Shinn"
-description: "Data Analyst . Business Intelligence and Analyst"
-baseurl: "" # keep empty for user.github.io repo; else "/repo-name"
-url: "https://Kyaw-May-Pyone-Shinn.github.io"
-source: .
+title: "Your Name | Data Analyst & Business Analyst"
+description: "Portfolio website for data analytics, business intelligence, reporting, and business analysis work."
+url: "https://YOUR-USERNAME.github.io"
+baseurl: "/YOUR-REPO-NAME"
+
+theme: jekyll-theme-cayman
+
+markdown: kramdown
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+collections: {}
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+exclude:
+  - README.md
+  - vendor
