@@ -1,44 +1,47 @@
-- title: "Spam Detection System (ML)"
-  type: "Machine Learning"
-  period: "2024"
+- title: "SME Sales Forecasting & Drift Detection"
+  type: "Machine Learning + BI"
+  period: "2025"
   description: >
-    Developed an email spam classification system using supervised machine learning models
-    including Naïve Bayes, Random Forest, and SVM. Built a simple web interface to make the
-    tool accessible to users.
+    Built a predictive pipeline using Python, integrating SME sales data
+    with macroeconomic indicators.
   impact:
-    - "Improved email filtering accuracy using multiple ML models"
-    - "Demonstrated practical ML deployment with user interface"
+    - "Achieved R² = 0.85 using MLR"
+    - "Implemented anomaly detection system"
   tech:
     - "Python"
-    - "Scikit-learn"
-    - "Flask"
-  link: "YOUR-GITHUB"
+    - "TensorFlow"
+    - "Streamlit"
 
-- title: "Cybersecurity Attack Simulation"
-  type: "Cybersecurity + Analytics"
-  period: "2023"
+- title: "Javaholics BI & CRM Transformation"
+  type: "Business Intelligence"
+  period: "2025"
   description: >
-    Simulated a backdoor attack scenario to identify network vulnerabilities and demonstrate
-    security risks in real-world systems.
+    Implemented Salesforce CRM and Tableau dashboards replacing manual workflows.
   impact:
-    - "Awarded Best Project at Auston Technology Fair 2023"
-    - "Provided insights into system vulnerabilities and risk mitigation"
+    - "Reduced order time from 5 min → 45 sec"
+    - "Reduced errors from 20% → <5%"
   tech:
-    - "Network Analysis"
-    - "Security Testing"
-  link: "YOUR-GITHUB"
+    - "Salesforce"
+    - "Tableau"
 
-- title: "Retail App User Behavior Analysis"
-  type: "Business Analytics"
-  period: "2024"
+- title: "Chest X-ray Classification"
+  type: "Deep Learning"
+  period: "2025"
   description: >
-    Analyzed user behavior data from a loyalty rewards application to improve customer
-    engagement and optimize promotional strategies.
+    Built CNN model for pneumonia detection.
   impact:
-    - "Identified user trends to improve marketing strategies"
-    - "Supported decision-making with data insights"
+    - "96.8% validation accuracy"
   tech:
-    - "SQL"
-    - "Excel"
-    - "Data Analysis"
-  link: "YOUR-GITHUB"
+    - "TensorFlow"
+    - "Keras"
+
+- title: "Child Mortality Analysis"
+  type: "Data Analytics"
+  period: "2025"
+  description: >
+    Applied clustering and ML on WHO data.
+  impact:
+    - "RF accuracy ≈ 0.83"
+  tech:
+    - "Python"
+    - "K-Means"
