@@ -5,13 +5,15 @@ tailwind.config = {
   theme: {
     extend: {
       colors: {
-        bg: '#0b1020',
-        panel: 'rgba(255,255,255,0.06)',
-        border: 'rgba(255,255,255,0.12)',
-        text: '#edf2ff',
-        muted: '#b8c1e0',
-        brand: '#6366f1',
-        accent: '#06b6d4'
+        bg: '#0b0b12',
+        panel: 'rgba(255,255,255,0.05)',
+        border: 'rgba(255,255,255,0.1)',
+        text: '#f1f1f5',
+        muted: '#a1a1aa',
+
+        primary: '#ec4899',   // pink
+        secondary: '#d946ef', // fuchsia
+        accent: '#f472b6'     // soft pink
       }
     }
   }
@@ -27,29 +29,29 @@ html {
 body {
   font-family: 'Inter', sans-serif;
   background:
-    radial-gradient(circle at top left, rgba(99,102,241,0.2), transparent 30%),
-    radial-gradient(circle at top right, rgba(6,182,212,0.15), transparent 30%),
-    #0b1020;
+    radial-gradient(circle at top left, rgba(236,72,153,0.15), transparent 40%),
+    radial-gradient(circle at top right, rgba(217,70,239,0.15), transparent 40%),
+    #0b0b12;
 }
 
 /* NAV ACTIVE */
 .nav-link {
   position: relative;
-  transition: color 0.3s;
+  transition: all 0.3s;
 }
 
 .nav-link.active {
-  color: #6366f1;
+  color: #ec4899;
 }
 
 .nav-link.active::after {
   content: "";
   position: absolute;
-  left: 0;
   bottom: -6px;
+  left: 0;
   width: 100%;
   height: 2px;
-  background: linear-gradient(to right, #6366f1, #06b6d4);
+  background: linear-gradient(to right, #ec4899, #d946ef);
 }
 </style>
 
