@@ -5,62 +5,61 @@ layout: default
 <section class="py-20">
   <div class="max-w-6xl mx-auto px-4 grid md:grid-cols-2 gap-10 items-center">
 
+    <!-- LEFT -->
     <div>
-      <p class="text-brand-2 uppercase text-sm font-bold mb-4">
-        AVAILABLE FOR ANALYST ROLES
+
+      <p class="text-accent font-bold uppercase mb-4">
+        DATA • INSIGHTS • IMPACT
       </p>
 
       <h1 class="text-5xl font-extrabold mb-4">
-        Kyaw May Pyone Shinn
+        Hi, I'm
+        <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand to-accent">
+          Kyaw May Pyone Shinn
+        </span>
       </h1>
 
-      <p class="text-xl text-muted mb-4 font-semibold">
-        Data Analyst • Business Analyst • BI Specialist
-      </p>
+      <!-- 🔥 ROTATING ROLE -->
+      <div class="text-2xl font-semibold mb-4">
+        I'm looking for:
+        <span id="rotating-role" class="text-brand transition duration-300">
+          Data Analyst
+        </span>
+      </div>
 
       <p class="text-muted mb-6">
-        I transform raw data into actionable business insights using analytics,
-        machine learning, and business intelligence tools.
+        I transform data into actionable insights, build intelligent systems,
+        and help businesses make confident, data-driven decisions.
       </p>
 
-      <div class="flex gap-4">
-        <a href="#projects" class="px-6 py-3 rounded-full bg-gradient-to-r from-brand to-accent text-white font-bold">
-          View Projects
-        </a>
+      <a href="#projects" class="px-6 py-3 bg-gradient-to-r from-brand to-accent rounded-full font-bold">
+        View My Work
+      </a>
+
+    </div>
+
+    <!-- RIGHT -->
+    <div class="flex justify-center">
+      <div class="w-72 h-72 rounded-full bg-gradient-to-r from-brand to-accent flex items-center justify-center text-6xl">
+        👨‍💻
       </div>
     </div>
 
-    <div class="bg-panel border border-border rounded-xl2 p-6 shadow-glass">
-      <p class="text-brand-2 text-xs uppercase">Core Stack</p>
-      <p>SQL • Power BI • Python</p>
-    </div>
-
   </div>
 </section>
 
-<section id="skills" class="py-20">
-  <div class="max-w-6xl mx-auto px-4">
-    <h2 class="text-3xl font-bold mb-6">Skills</h2>
-
-    <div class="flex flex-wrap gap-3">
-      {% for skill in site.data.profile.skills %}
-      <span class="px-4 py-2 bg-brand/10 border border-brand/20 rounded-full">
-        {{ skill }}
-      </span>
-      {% endfor %}
-    </div>
-  </div>
-</section>
-
+<!-- PROJECTS -->
 <section id="projects" class="py-20">
   <div class="max-w-6xl mx-auto px-4">
+
     <h2 class="text-3xl font-bold mb-10">Projects</h2>
 
     <div class="grid md:grid-cols-2 gap-6">
-      {% for project in site.data.projects %}
-      <div class="bg-panel border border-border p-6 rounded-xl2 shadow-glass">
 
-        <div class="flex justify-between text-xs text-brand-2 mb-2">
+      {% for project in site.data.projects %}
+      <div class="bg-panel border border-border p-6 rounded-xl shadow-glass">
+
+        <div class="flex justify-between text-xs text-accent mb-2">
           <span>{{ project.type }}</span>
           <span>{{ project.period }}</span>
         </div>
@@ -76,6 +75,7 @@ layout: default
 
       </div>
       {% endfor %}
+
     </div>
   </div>
 </section>
