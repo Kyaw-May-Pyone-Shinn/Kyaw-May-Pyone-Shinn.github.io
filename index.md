@@ -15,8 +15,8 @@ layout: default
 
       <h1 class="text-5xl md:text-7xl font-black leading-tight mb-4">
         Hi, I’m <br>
-        <span class="gradient-text">Kyaw May</span><br>
-        Pyone Shinn
+        <span class="gradient-text">Kyaw May Pyone Shinn</span><br>
+        
       </h1>
 
       <div class="text-xl md:text-2xl mb-6 font-semibold">
