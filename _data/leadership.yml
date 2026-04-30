@@ -1,0 +1,32 @@
+- role: "Founder"
+  organisation: "Youthhood Organization Myanmar"
+  period: "October 2021 – Present"
+  description: "Founded and managed a youth-focused organisation delivering social awareness, development, and wellbeing initiatives."
+  bullets:
+    - "Oversaw strategy, operations, programme delivery, stakeholder engagement, and volunteer coordination."
+    - "Delivered workshops, webinars, and advisory sessions, including 1:1 and group support for youth wellbeing and development."
+    - "Managed programmes using Zoom, Excel, and Google Docs."
+    - "Led planning, execution, and evaluation of initiatives to improve impact and engagement."
+
+- role: "Ambassador"
+  organisation: "ASEAN Youth Organization"
+  period: "May 2023"
+  description: "Supported an SDG 6 clean water and sanitation initiative for rural communities in Myanmar."
+  bullets:
+    - "Collaborated on fundraising and public initiatives to support access to clean water in underserved areas."
+    - "Contributed to awareness, coordination, and project communication."
+
+- role: "Project Manager"
+  organisation: "Youth of Tomorrow Myanmar"
+  period: "February 2022 – April 2023"
+  description: "Led project planning and delivery for youth-focused initiatives."
+  bullets:
+    - "Coordinated team members and supported timely delivery of initiatives."
+    - "Prepared structured presentations and reports using Google Slides, Google Docs, and PowerPoint."
+
+- role: "Member"
+  organisation: "NCI Badminton Club"
+  period: "March 2026 – Present"
+  description: "Participates in team activities that support collaboration, engagement, and university community involvement."
+  bullets:
+    - "Contributed to club participation and team-based engagement."
