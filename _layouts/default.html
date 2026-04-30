@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,20 +9,31 @@
 
 <body class="text-text">
 
-<header class="fixed w-full top-0 bg-black/40 backdrop-blur border-b border-border z-50">
-  <div class="max-w-6xl mx-auto px-4 flex justify-between items-center h-16">
+<header class="fixed top-0 w-full z-50 bg-bg/75 backdrop-blur-xl border-b border-border">
+  <div class="max-w-7xl mx-auto px-5 h-20 flex items-center justify-between">
 
-    <div class="font-bold text-lg">
-      Kyaw May Pyone Shinn
-    </div>
+    <a href="#home" class="flex items-center gap-3">
+      <div class="w-11 h-11 rounded-2xl bg-gradient-to-br from-primary via-secondary to-accent flex items-center justify-center shadow-glow font-black">
+        K
+      </div>
+      <div>
+        <p class="font-extrabold leading-tight">Kyaw May Pyone Shinn</p>
+        <p class="text-xs text-muted">Data • BI • Consulting</p>
+      </div>
+    </a>
 
-    <nav class="flex gap-6 text-muted font-semibold">
+    <nav class="hidden md:flex gap-7 text-sm text-muted font-semibold">
       <a href="#about" class="nav-link">About</a>
       <a href="#skills" class="nav-link">Skills</a>
       <a href="#experience" class="nav-link">Experience</a>
+      <a href="#leadership" class="nav-link">Leadership</a>
       <a href="#projects" class="nav-link">Projects</a>
       <a href="#contact" class="nav-link">Contact</a>
     </nav>
+
+    <a href="#contact" class="hidden md:inline-flex px-5 py-2 rounded-full bg-gradient-to-r from-primary to-secondary font-bold text-sm shadow-glow">
+      Hire / Connect
+    </a>
 
   </div>
 </header>
@@ -30,6 +41,10 @@
 <main class="pt-20">
   {{ content }}
 </main>
+
+<footer class="border-t border-border py-8 text-center text-sm text-muted">
+  <p>© 2026 Kyaw May Pyone Shinn. Built with GitHub Pages, Jekyll, and Tailwind CSS.</p>
+</footer>
 
 </body>
 </html>
