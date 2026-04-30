@@ -1,47 +1,60 @@
-- title: "SME Sales Forecasting & Drift Detection"
-  type: "Machine Learning + BI"
+- title: "SME Sales Forecasting and Drift Detection Pipeline"
+  type: "Machine Learning + Business Intelligence"
   period: "2025"
-  description: >
-    Built a predictive pipeline using Python, integrating SME sales data
-    with macroeconomic indicators.
-  impact:
-    - "Achieved R² = 0.85 using MLR"
-    - "Implemented anomaly detection system"
+  summary: "A predictive analytics and monitoring system designed to support SME decision-making through forecasting, anomaly detection, and interactive dashboarding."
+  problem: "SMEs often lack affordable forecasting systems that help them understand future sales patterns, detect unusual behaviour, and connect business performance with external macroeconomic conditions."
+  approach: "Built a predictive pipeline using Python, Scikit-learn, TensorFlow, Pandas, and Streamlit. Integrated SME data with macroeconomic indicators across approximately 36,950 records. Compared Multiple Linear Regression and LSTM models, then implemented autoencoder-based anomaly detection."
+  outcome: "The MLR model outperformed LSTM with R² = 0.85 and RMSE ≈ 180. The final dashboard supported forecasting, anomaly monitoring, and business decision-making through Streamlit and Plotly."
   tech:
     - "Python"
+    - "Scikit-learn"
     - "TensorFlow"
+    - "Pandas"
     - "Streamlit"
+    - "Plotly"
+  link: "https://github.com/Kyaw-May-Pyone-Shinn"
 
-- title: "Javaholics BI & CRM Transformation"
-  type: "Business Intelligence"
+- title: "Javaholics Coffee: BI & CRM Transformation"
+  type: "Business Intelligence + CRM"
   period: "2025"
-  description: >
-    Implemented Salesforce CRM and Tableau dashboards replacing manual workflows.
-  impact:
-    - "Reduced order time from 5 min → 45 sec"
-    - "Reduced errors from 20% → <5%"
+  summary: "A business transformation project using Salesforce and Tableau to replace manual processes with structured CRM, dashboard reporting, and loyalty automation."
+  problem: "The business relied on manual processes for orders, customer data, and stock-related tasks, creating inefficiencies, slower service, and higher error rates."
+  approach: "Designed customer and order data models, implemented Salesforce CRM workflows, created loyalty automation processes, and developed Tableau dashboards for performance reporting."
+  outcome: "Reduced order time from 3–5 minutes to 30–45 seconds and reduced stock-entry errors from 20% to below 5%, improving operational efficiency and reporting visibility."
   tech:
     - "Salesforce"
     - "Tableau"
+    - "CRM Workflows"
+    - "Dashboard Design"
+    - "Business Process Improvement"
+  link: "https://github.com/Kyaw-May-Pyone-Shinn"
 
-- title: "Chest X-ray Classification"
-  type: "Deep Learning"
+- title: "Chest X-ray Pneumonia Classification"
+  type: "Deep Learning + Explainable AI"
   period: "2025"
-  description: >
-    Built CNN model for pneumonia detection.
-  impact:
-    - "96.8% validation accuracy"
+  summary: "A CNN-based image classification project for pneumonia detection using medical chest X-ray images."
+  problem: "Medical image classification requires reliable model performance and interpretability to support understanding of model behaviour."
+  approach: "Developed deep learning models using TensorFlow and Keras on 5,800+ medical images. Applied preprocessing, augmentation, evaluation metrics, and LIME interpretability."
+  outcome: "Achieved 96.8% validation accuracy, 87.2% test accuracy, and 0.98 recall, with LIME used to interpret key image regions influencing classification."
   tech:
     - "TensorFlow"
     - "Keras"
+    - "CNN"
+    - "Image Augmentation"
+    - "LIME"
+  link: "https://github.com/Kyaw-May-Pyone-Shinn"
 
-- title: "Child Mortality Analysis"
-  type: "Data Analytics"
+- title: "Global Child Mortality Analysis"
+  type: "Machine Learning + Public Health Analytics"
   period: "2025"
-  description: >
-    Applied clustering and ML on WHO data.
-  impact:
-    - "RF accuracy ≈ 0.83"
+  summary: "An analytical project exploring global child mortality trends using machine learning and clustering."
+  problem: "Child mortality patterns differ across age groups and causes, requiring structured analysis to identify epidemiological trends and policy-relevant insights."
+  approach: "Analysed WHO/UN child mortality data across three age groups, covering infectious diseases, injuries, and non-communicable diseases. Applied K-Means clustering and predictive models."
+  outcome: "Identified four clusters and achieved approximately 0.83 Random Forest accuracy, revealing age-specific and cause-specific trends useful for policy insights."
   tech:
     - "Python"
     - "K-Means"
+    - "Random Forest"
+    - "Data Analysis"
+    - "Public Health Analytics"
+  link: "https://github.com/Kyaw-May-Pyone-Shinn"
