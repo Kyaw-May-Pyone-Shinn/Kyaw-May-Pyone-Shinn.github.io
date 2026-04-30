@@ -1,12 +1,9 @@
 title: "Kyaw May Pyone Shinn"
-description: "Data Analyst | Business Analyst & Consultant | BI Portfolio"
-url: "https://Kyaw-May-Pyone-Shinn.github.io"
+description: "Data Analyst | Business Analyst | Business Intelligence Portfolio"
 baseurl: ""
+url: "https://kyaw-may-pyone-shinn.github.io"
 
 markdown: kramdown
 
 plugins:
   - jekyll-seo-tag
-
-
-
