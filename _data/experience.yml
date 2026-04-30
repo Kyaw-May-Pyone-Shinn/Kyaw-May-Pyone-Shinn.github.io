@@ -1,0 +1,41 @@
+- role: "Lab Assistant"
+  company: "National College of Ireland"
+  location: "Dublin"
+  period: "January 2026 – Present"
+  description: "Support students in technical and analytics-focused lab sessions, helping them connect programming, machine learning, dashboarding, and business intelligence concepts to real implementation work."
+  bullets:
+    - "Delivered weekly lab support to 70+ students across Data Structures, AI/ML, and Business Intelligence modules."
+    - "Guided students through machine learning workflows using Python and Jupyter Notebook, including debugging, implementation logic, and interpretation of results."
+    - "Supported Tableau dashboard development, helping students translate datasets into meaningful business insights."
+    - "Guided students with Salesforce CRM and cloud-based BI concepts, linking technical implementation to business applications."
+    - "Assisted with debugging and project execution using VS Code and NetBeans."
+
+- role: "International Peer Mentor"
+  company: "National College of Ireland"
+  location: "Dublin"
+  period: "June 2025 – Present"
+  description: "Support international students in adapting to academic life, campus systems, and student services while strengthening communication, leadership, and stakeholder engagement."
+  bullets:
+    - "Facilitated onboarding for 100+ international students, improving engagement and integration into academic systems."
+    - "Acted as a liaison between students and academic departments, supporting issue resolution and communication flow."
+    - "Organised orientation sessions and events that supported student experience, confidence, and retention."
+
+- role: "Data Assistant Intern"
+  company: "City Holdings Co., Ltd"
+  location: "Yangon"
+  period: "February 2024 – May 2024"
+  description: "Worked in a retail and services environment, supporting reporting, operational data analysis, and business communication."
+  bullets:
+    - "Analysed operational data using MySQL and Excel to identify patterns that supported internal business reporting."
+    - "Produced reports and presentations using PowerPoint and Word, translating data into practical business insights."
+    - "Supported internal decision-making through structured data analysis and reporting."
+
+- role: "IT Intern"
+  company: "Ayeyarwady Bank Public Co., Ltd"
+  location: "Yangon"
+  period: "March 2023 – May 2023"
+  description: "Gained exposure to enterprise infrastructure, data centre operations, monitoring, documentation, and security awareness in a financial services environment."
+  bullets:
+    - "Monitored and analysed data centre operations, gaining exposure to enterprise-level data infrastructure."
+    - "Used Kali Linux tools to understand system security, monitoring, and vulnerability assessment."
+    - "Documented workflows and supported reporting processes for operational improvement."
