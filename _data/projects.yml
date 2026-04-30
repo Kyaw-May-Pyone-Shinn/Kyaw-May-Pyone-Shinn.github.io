@@ -1,60 +1,44 @@
-- title: "SME Sales Forecasting and Drift Detection Pipeline"
-  type: "Machine Learning + Business Intelligence"
-  period: "2025"
-  summary: "A predictive analytics and monitoring system designed to support SME decision-making through forecasting, anomaly detection, and interactive dashboarding."
-  problem: "SMEs often lack affordable forecasting systems that help them understand future sales patterns, detect unusual behaviour, and connect business performance with external macroeconomic conditions."
-  approach: "Built a predictive pipeline using Python, Scikit-learn, TensorFlow, Pandas, and Streamlit. Integrated SME data with macroeconomic indicators across approximately 36,950 records. Compared Multiple Linear Regression and LSTM models, then implemented autoencoder-based anomaly detection."
-  outcome: "The MLR model outperformed LSTM with R² = 0.85 and RMSE ≈ 180. The final dashboard supported forecasting, anomaly monitoring, and business decision-making through Streamlit and Plotly."
+- title: "SME Sales Forecasting & Drift Detection"
+  type: "Machine Learning + BI"
+  summary: "Built a predictive sales forecasting system integrating SME data with macroeconomic indicators."
+  approach: "Used Python, Scikit-learn, TensorFlow, and Pandas to compare MLR and LSTM models and implemented anomaly detection."
+  outcome: "Achieved R² = 0.85 and built an interactive dashboard for forecasting and monitoring."
   tech:
-    - "Python"
-    - "Scikit-learn"
-    - "TensorFlow"
-    - "Pandas"
-    - "Streamlit"
-    - "Plotly"
+    - Python
+    - TensorFlow
+    - Pandas
+    - Streamlit
   link: "https://github.com/Kyaw-May-Pyone-Shinn"
 
-- title: "Javaholics Coffee: BI & CRM Transformation"
+- title: "Javaholics BI & CRM Transformation"
   type: "Business Intelligence + CRM"
-  period: "2025"
-  summary: "A business transformation project using Salesforce and Tableau to replace manual processes with structured CRM, dashboard reporting, and loyalty automation."
-  problem: "The business relied on manual processes for orders, customer data, and stock-related tasks, creating inefficiencies, slower service, and higher error rates."
-  approach: "Designed customer and order data models, implemented Salesforce CRM workflows, created loyalty automation processes, and developed Tableau dashboards for performance reporting."
-  outcome: "Reduced order time from 3–5 minutes to 30–45 seconds and reduced stock-entry errors from 20% to below 5%, improving operational efficiency and reporting visibility."
+  summary: "Developed a CRM and BI system replacing manual business processes."
+  approach: "Designed Salesforce workflows and built Tableau dashboards for reporting and automation."
+  outcome: "Reduced order time from 3–5 min to 30–45 sec and reduced errors below 5%."
   tech:
-    - "Salesforce"
-    - "Tableau"
-    - "CRM Workflows"
-    - "Dashboard Design"
-    - "Business Process Improvement"
+    - Salesforce
+    - Tableau
+    - CRM
   link: "https://github.com/Kyaw-May-Pyone-Shinn"
 
-- title: "Chest X-ray Pneumonia Classification"
-  type: "Deep Learning + Explainable AI"
-  period: "2025"
-  summary: "A CNN-based image classification project for pneumonia detection using medical chest X-ray images."
-  problem: "Medical image classification requires reliable model performance and interpretability to support understanding of model behaviour."
-  approach: "Developed deep learning models using TensorFlow and Keras on 5,800+ medical images. Applied preprocessing, augmentation, evaluation metrics, and LIME interpretability."
-  outcome: "Achieved 96.8% validation accuracy, 87.2% test accuracy, and 0.98 recall, with LIME used to interpret key image regions influencing classification."
+- title: "Chest X-ray Classification"
+  type: "Deep Learning"
+  summary: "Built CNN model for pneumonia detection using medical imaging."
+  approach: "Used TensorFlow/Keras with preprocessing, augmentation, and LIME explainability."
+  outcome: "Achieved 96.8% validation accuracy with strong recall performance."
   tech:
-    - "TensorFlow"
-    - "Keras"
-    - "CNN"
-    - "Image Augmentation"
-    - "LIME"
+    - TensorFlow
+    - CNN
+    - LIME
   link: "https://github.com/Kyaw-May-Pyone-Shinn"
 
-- title: "Global Child Mortality Analysis"
-  type: "Machine Learning + Public Health Analytics"
-  period: "2025"
-  summary: "An analytical project exploring global child mortality trends using machine learning and clustering."
-  problem: "Child mortality patterns differ across age groups and causes, requiring structured analysis to identify epidemiological trends and policy-relevant insights."
-  approach: "Analysed WHO/UN child mortality data across three age groups, covering infectious diseases, injuries, and non-communicable diseases. Applied K-Means clustering and predictive models."
-  outcome: "Identified four clusters and achieved approximately 0.83 Random Forest accuracy, revealing age-specific and cause-specific trends useful for policy insights."
+- title: "Child Mortality Analysis"
+  type: "Machine Learning + Analytics"
+  summary: "Analysed global mortality data to identify patterns and clusters."
+  approach: "Applied K-Means clustering and Random Forest classification."
+  outcome: "Achieved ~0.83 accuracy and identified key epidemiological trends."
   tech:
-    - "Python"
-    - "K-Means"
-    - "Random Forest"
-    - "Data Analysis"
-    - "Public Health Analytics"
+    - Python
+    - K-Means
+    - Random Forest
   link: "https://github.com/Kyaw-May-Pyone-Shinn"
