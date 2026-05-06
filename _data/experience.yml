@@ -2,13 +2,13 @@
   company: "National College of Ireland"
   location: "Dublin"
   period: "January 2026 – Present"
-  description: "Support students in technical and analytics-focused lab sessions, helping them connect programming, machine learning, dashboarding, and business intelligence concepts to real implementation work."
+  description: "Support students in analytics and computing lab sessions, helping them connect programming, machine learning, dashboarding, and business intelligence concepts to practical implementation."
   bullets:
     - "Delivered weekly lab support to 70+ students across Data Structures, AI/ML, and Business Intelligence modules."
-    - "Guided students through machine learning workflows using Python and Jupyter Notebook, including debugging, implementation logic, and interpretation of results."
-    - "Supported Tableau dashboard development, helping students translate datasets into meaningful business insights."
-    - "Guided students with Salesforce CRM and cloud-based BI concepts, linking technical implementation to business applications."
-    - "Assisted with debugging and project execution using VS Code and NetBeans."
+    - "Guided students through machine learning workflows using Python and Jupyter Notebook."
+    - "Supported Tableau dashboard development and helped students translate data into business insights."
+    - "Guided Salesforce CRM and cloud-based BI concepts, connecting technical tools to business applications."
+    - "Assisted with debugging, project execution, and practical problem-solving using VS Code and NetBeans."
 
 - role: "International Peer Mentor"
   company: "National College of Ireland"
@@ -26,7 +26,7 @@
   period: "February 2024 – May 2024"
   description: "Worked in a retail and services environment, supporting reporting, operational data analysis, and business communication."
   bullets:
-    - "Analysed operational data using MySQL and Excel to identify patterns that supported internal business reporting."
+    - "Analysed operational data using MySQL and Excel to identify patterns supporting internal business reporting."
     - "Produced reports and presentations using PowerPoint and Word, translating data into practical business insights."
     - "Supported internal decision-making through structured data analysis and reporting."
 
