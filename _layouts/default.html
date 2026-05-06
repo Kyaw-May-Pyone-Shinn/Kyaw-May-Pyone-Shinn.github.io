@@ -13,29 +13,31 @@
 
 <header class="fixed top-0 w-full z-50 bg-nav/90 backdrop-blur-xl border-b border-border">
 
-  <div class="max-w-6xl mx-auto px-6 h-20 flex items-center justify-between">
+  <div class="max-w-5xl mx-auto px-6 h-16 flex items-center justify-between">
 
     <!-- LOGO -->
-    <a href="#home" class="flex items-center gap-4">
+    <a href="#home" class="flex items-center gap-3">
 
-      <div class="w-12 h-12 rounded-2xl bg-accent text-white flex items-center justify-center font-black text-lg">
+      <div class="w-10 h-10 rounded-xl bg-accent text-white flex items-center justify-center font-black text-base">
         K
       </div>
 
       <div>
-        <h1 class="font-extrabold text-lg leading-tight">
+
+        <h1 class="font-extrabold text-base leading-tight">
           Kyaw May Pyone Shinn
         </h1>
 
-        <p class="text-sm text-muted">
+        <p class="text-xs text-muted">
           Data • BI • Business Analysis
         </p>
+
       </div>
 
     </a>
 
     <!-- NAV -->
-    <nav class="hidden md:flex gap-8 text-sm font-semibold text-muted">
+    <nav class="hidden md:flex gap-6 text-sm font-semibold text-muted">
 
       <a href="#about" class="nav-link">About</a>
       <a href="#skills" class="nav-link">Skills</a>
@@ -48,9 +50,9 @@
 
     <!-- CTA -->
     <a href="#contact"
-       class="hidden md:inline-flex px-5 py-2.5 rounded-full bg-accent text-white text-sm font-bold hover:bg-accentDark transition">
+       class="hidden md:inline-flex px-4 py-2 rounded-full bg-accent text-white text-sm font-semibold hover:bg-accentDark transition">
 
-      Hire / Connect
+      Connect
 
     </a>
 
@@ -58,11 +60,11 @@
 
 </header>
 
-<main class="pt-20">
+<main class="pt-16">
   {{ content }}
 </main>
 
-<footer class="border-t border-border py-8 mt-10 text-center text-sm text-muted">
+<footer class="border-t border-border py-6 mt-8 text-center text-xs text-muted">
   <p>
     © 2026 Kyaw May Pyone Shinn • Built with GitHub Pages & Jekyll
   </p>
