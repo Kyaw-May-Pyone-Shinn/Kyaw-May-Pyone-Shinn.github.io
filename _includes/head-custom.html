@@ -1,3 +1,8 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
 <script src="https://cdn.tailwindcss.com"></script>
 
 <script>
@@ -5,20 +10,19 @@ tailwind.config = {
   theme: {
     extend: {
       colors: {
-        page: "#f8fafc",
-        ink: "#0f172a",
-        muted: "#475569",
-        soft: "#64748b",
-        card: "#ffffff",
-        line: "#e2e8f0",
-        rose: "#e11d48",
-        roseDark: "#be123c",
-        blush: "#fff1f2",
-        navy: "#1e293b"
+        bg: "#f8f6f7",
+        surface: "#ffffff",
+        border: "#e7e3e5",
+        text: "#1f2937",
+        muted: "#6b7280",
+        accent: "#b76e79",
+        accentSoft: "#f3e8eb",
+        accentDark: "#8d5b63",
+        nav: "#fcfbfb"
       },
+
       boxShadow: {
-        soft: "0 18px 45px rgba(15, 23, 42, 0.08)",
-        small: "0 8px 22px rgba(15, 23, 42, 0.06)"
+        soft: "0 10px 30px rgba(15, 23, 42, 0.05)"
       }
     }
   }
@@ -28,79 +32,85 @@ tailwind.config = {
 <style>
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: 92px;
+  scroll-padding-top: 90px;
 }
 
 body {
-  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  background:
-    radial-gradient(circle at 10% 10%, rgba(225, 29, 72, 0.08), transparent 30%),
-    radial-gradient(circle at 90% 5%, rgba(190, 18, 60, 0.07), transparent 28%),
-    #f8fafc;
+  font-family: 'Inter', sans-serif;
+  background: #f8f6f7;
+  color: #1f2937;
 }
 
 .nav-link {
   position: relative;
-  transition: color 0.2s ease;
+  transition: all .2s ease;
 }
 
-.nav-link:hover,
+.nav-link:hover {
+  color: #b76e79;
+}
+
 .nav-link.active {
-  color: #e11d48;
+  color: #b76e79;
 }
 
 .nav-link.active::after {
   content: "";
   position: absolute;
+  bottom: -10px;
   left: 0;
-  bottom: -8px;
   width: 100%;
   height: 2px;
+  background: #b76e79;
   border-radius: 999px;
-  background: #e11d48;
 }
 
-.section-kicker {
-  color: #e11d48;
-  font-size: 0.78rem;
-  font-weight: 800;
-  letter-spacing: 0.14em;
+.section-label {
+  color: #b76e79;
+  font-size: .78rem;
+  font-weight: 700;
+  letter-spacing: .15em;
   text-transform: uppercase;
 }
 
 .card {
   background: #ffffff;
-  border: 1px solid #e2e8f0;
-  box-shadow: 0 18px 45px rgba(15, 23, 42, 0.08);
+  border: 1px solid #e7e3e5;
+  box-shadow: 0 10px 30px rgba(15, 23, 42, 0.05);
 }
 
-.role-fade {
-  transition: opacity 0.25s ease;
+.role-transition {
+  transition: opacity .25s ease;
 }
 </style>
 
 <script>
 document.addEventListener("DOMContentLoaded", function () {
+
   const roles = [
     "Data Analyst",
     "Business Analyst",
     "Business Intelligence Analyst",
-    "Analytics Consultant",
-    "CRM & BI Analyst"
+    "CRM & BI Analyst",
+    "Analytics Consultant"
   ];
 
-  let i = 0;
+  let currentRole = 0;
+
   const roleElement = document.getElementById("rotating-role");
 
   if (roleElement) {
     setInterval(() => {
+
       roleElement.style.opacity = 0;
+
       setTimeout(() => {
-        i = (i + 1) % roles.length;
-        roleElement.textContent = roles[i];
+        currentRole = (currentRole + 1) % roles.length;
+        roleElement.textContent = roles[currentRole];
         roleElement.style.opacity = 1;
       }, 250);
-    }, 2200);
+
+    }, 2400);
   }
 
   const sections = document.querySelectorAll("section[id]");
@@ -109,19 +119,29 @@ document.addEventListener("DOMContentLoaded", function () {
   const observer = new IntersectionObserver(
     entries => {
       entries.forEach(entry => {
+
         if (entry.isIntersecting) {
+
           navLinks.forEach(link => {
+
             link.classList.remove("active");
+
             if (link.getAttribute("href") === "#" + entry.target.id) {
               link.classList.add("active");
             }
+
           });
+
         }
+
       });
     },
-    { threshold: 0.45 }
+    {
+      threshold: 0.45
+    }
   );
 
   sections.forEach(section => observer.observe(section));
+
 });
 </script>
