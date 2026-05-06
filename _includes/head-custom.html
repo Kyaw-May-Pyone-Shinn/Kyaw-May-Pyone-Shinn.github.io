@@ -5,21 +5,20 @@ tailwind.config = {
   theme: {
     extend: {
       colors: {
-        bg: "#100914",
-        surface: "rgba(255,255,255,0.06)",
-        surfaceStrong: "rgba(255,255,255,0.10)",
-        border: "rgba(255,255,255,0.13)",
-        text: "#fff7fb",
-        muted: "#d9c4d1",
-        soft: "#fce7f3",
-        primary: "#ec4899",
-        secondary: "#d946ef",
-        accent: "#fb7185",
-        gold: "#fbbf24"
+        page: "#f8fafc",
+        ink: "#0f172a",
+        muted: "#475569",
+        soft: "#64748b",
+        card: "#ffffff",
+        line: "#e2e8f0",
+        rose: "#e11d48",
+        roseDark: "#be123c",
+        blush: "#fff1f2",
+        navy: "#1e293b"
       },
       boxShadow: {
-        glow: "0 20px 70px rgba(236,72,153,0.28)",
-        card: "0 18px 50px rgba(0,0,0,0.35)"
+        soft: "0 18px 45px rgba(15, 23, 42, 0.08)",
+        small: "0 8px 22px rgba(15, 23, 42, 0.06)"
       }
     }
   }
@@ -29,26 +28,25 @@ tailwind.config = {
 <style>
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: 90px;
+  scroll-padding-top: 92px;
 }
 
 body {
   font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   background:
-    radial-gradient(circle at 10% 10%, rgba(236,72,153,0.22), transparent 32%),
-    radial-gradient(circle at 88% 12%, rgba(217,70,239,0.18), transparent 34%),
-    radial-gradient(circle at 50% 100%, rgba(251,113,133,0.12), transparent 35%),
-    #100914;
+    radial-gradient(circle at 10% 10%, rgba(225, 29, 72, 0.08), transparent 30%),
+    radial-gradient(circle at 90% 5%, rgba(190, 18, 60, 0.07), transparent 28%),
+    #f8fafc;
 }
 
 .nav-link {
   position: relative;
-  transition: all 0.25s ease;
+  transition: color 0.2s ease;
 }
 
 .nav-link:hover,
 .nav-link.active {
-  color: #f472b6;
+  color: #e11d48;
 }
 
 .nav-link.active::after {
@@ -59,40 +57,25 @@ body {
   width: 100%;
   height: 2px;
   border-radius: 999px;
-  background: linear-gradient(to right, #ec4899, #d946ef, #fb7185);
+  background: #e11d48;
 }
 
-.glass {
-  background: rgba(255,255,255,0.06);
-  border: 1px solid rgba(255,255,255,0.13);
-  box-shadow: 0 18px 50px rgba(0,0,0,0.35);
-  backdrop-filter: blur(18px);
-}
-
-.gradient-text {
-  background: linear-gradient(90deg, #f9a8d4, #ec4899, #d946ef, #fb7185);
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
-}
-
-.section-label {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.55rem;
-  color: #f9a8d4;
+.section-kicker {
+  color: #e11d48;
+  font-size: 0.78rem;
   font-weight: 800;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  font-size: 0.78rem;
 }
 
-.section-label::before {
-  content: "";
-  width: 36px;
-  height: 2px;
-  background: linear-gradient(to right, #ec4899, #d946ef);
-  border-radius: 999px;
+.card {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 18px 45px rgba(15, 23, 42, 0.08);
+}
+
+.role-fade {
+  transition: opacity 0.25s ease;
 }
 </style>
 
@@ -107,17 +90,17 @@ document.addEventListener("DOMContentLoaded", function () {
   ];
 
   let i = 0;
-  const el = document.getElementById("rotating-role");
+  const roleElement = document.getElementById("rotating-role");
 
-  if (el) {
+  if (roleElement) {
     setInterval(() => {
-      el.style.opacity = 0;
+      roleElement.style.opacity = 0;
       setTimeout(() => {
         i = (i + 1) % roles.length;
-        el.textContent = roles[i];
-        el.style.opacity = 1;
-      }, 260);
-    }, 2300);
+        roleElement.textContent = roles[i];
+        roleElement.style.opacity = 1;
+      }, 250);
+    }, 2200);
   }
 
   const sections = document.querySelectorAll("section[id]");
