@@ -5,150 +5,88 @@ layout: default
 {% assign profile = site.data.profile %}
 
 <!-- HERO -->
-<section id="home" class="py-20">
+<section id="home" class="py-14">
 
-  <div class="max-w-6xl mx-auto px-6 grid lg:grid-cols-2 gap-12 items-center">
+  <div class="max-w-5xl mx-auto px-6">
 
-    <!-- LEFT -->
-    <div class="max-w-xl">
+    <div class="max-w-3xl">
 
-      <p class="section-label mb-5">
-        Hello There
+      <p class="section-label mb-4">
+        Data Analytics • Business Intelligence • Consulting
       </p>
 
-      <h1 class="text-4xl md:text-5xl font-black leading-tight mb-5">
-
-        Hi, I’m <br>
-
-        <span class="text-accent">
-          Kyaw May
-        </span>
-
-        Pyone Shinn
-
+      <h1 class="text-3xl md:text-4xl font-black leading-tight mb-5 text-text">
+        Kyaw May Pyone Shinn
       </h1>
 
-      <div class="text-2xl font-bold mb-5">
-
-        I’m a
+      <div class="text-xl font-semibold mb-5 text-text">
 
         <span id="rotating-role"
               class="text-accent role-transition">
+
           Data Analyst
+
         </span>
 
       </div>
 
-      <p class="text-muted leading-relaxed mb-7">
+      <p class="text-muted leading-relaxed mb-7 max-w-2xl">
 
-        I build analytics, dashboards, CRM reporting,
-        and decision-support solutions that transform
-        operational data into actionable business insights.
+        MSc Data Analytics candidate with a strong focus on Business Intelligence,
+        CRM analytics, dashboard development, and consulting-oriented problem solving.
+        Experienced in transforming operational and business data into structured,
+        actionable insights using Tableau, Salesforce, Python, SQL, and Power BI.
 
       </p>
 
-      <div class="flex flex-wrap gap-3 mb-7">
+      <!-- BUTTONS -->
+      <div class="flex flex-wrap gap-3 mb-6">
 
         <a href="#projects"
-           class="px-5 py-2.5 rounded-full bg-accent text-white text-sm font-bold hover:bg-accentDark transition">
+           class="px-5 py-2.5 rounded-full bg-accent text-white text-sm font-semibold hover:bg-accentDark transition">
 
-          Explore Projects
+          View Projects
 
         </a>
 
         <a href="#contact"
-           class="px-5 py-2.5 rounded-full border border-border bg-white text-sm font-bold hover:border-accent hover:text-accent transition">
+           class="px-5 py-2.5 rounded-full border border-border bg-white text-sm font-semibold hover:border-accent hover:text-accent transition">
 
-          Contact Me
+          Contact
 
         </a>
 
       </div>
 
+      <!-- SOCIAL -->
       <div class="flex flex-wrap gap-3 text-sm">
 
         <a href="{{ profile.linkedin }}"
            target="_blank"
-           class="px-4 py-2 rounded-full bg-white border border-border hover:border-accent hover:text-accent transition">
+           class="text-muted hover:text-accent transition">
 
           LinkedIn
 
         </a>
 
+        <span class="text-border">•</span>
+
         <a href="{{ profile.github }}"
            target="_blank"
-           class="px-4 py-2 rounded-full bg-white border border-border hover:border-accent hover:text-accent transition">
+           class="text-muted hover:text-accent transition">
 
           GitHub
 
         </a>
 
+        <span class="text-border">•</span>
+
         <a href="mailto:{{ profile.email }}"
-           class="px-4 py-2 rounded-full bg-white border border-border hover:border-accent hover:text-accent transition">
+           class="text-muted hover:text-accent transition">
 
           Email
 
         </a>
-
-      </div>
-
-    </div>
-
-    <!-- RIGHT -->
-    <div class="grid gap-4">
-
-      <!-- PROFILE SUMMARY -->
-      <div class="card rounded-3xl p-7">
-
-        <div class="flex items-start gap-5">
-
-          <div class="w-14 h-14 rounded-2xl bg-accentSoft flex items-center justify-center text-accent font-black text-xl shrink-0">
-            K
-          </div>
-
-          <div>
-
-            <h2 class="text-xl font-black mb-1">
-              MSc Data Analytics Candidate
-            </h2>
-
-            <p class="text-accent text-sm font-semibold mb-4">
-              Business Intelligence • CRM Analytics • Consulting
-            </p>
-
-            <p class="text-muted text-sm leading-relaxed">
-
-              Focused on building structured analytics,
-              business intelligence dashboards, CRM reporting,
-              and decision-support solutions that align data
-              with operational and strategic business goals.
-
-            </p>
-
-          </div>
-
-        </div>
-
-      </div>
-
-      <!-- KPI -->
-      <div class="grid grid-cols-2 gap-4">
-
-        {% for item in profile.highlights %}
-
-        <div class="card rounded-2xl p-5">
-
-          <p class="text-3xl font-black">
-            {{ item.value }}
-          </p>
-
-          <p class="text-sm text-muted mt-2 leading-relaxed">
-            {{ item.label }}
-          </p>
-
-        </div>
-
-        {% endfor %}
 
       </div>
 
@@ -159,25 +97,25 @@ layout: default
 </section>
 
 <!-- ABOUT -->
-<section id="about" class="py-16 border-t border-border">
+<section id="about" class="py-12 border-t border-border">
 
-  <div class="max-w-6xl mx-auto px-6">
+  <div class="max-w-5xl mx-auto px-6">
 
-    <p class="section-label mb-4">
+    <p class="section-label mb-3">
       About
     </p>
 
-    <h2 class="text-3xl font-black mb-8">
+    <h2 class="text-2xl font-black mb-6">
       Professional Profile
     </h2>
 
-    <div class="grid md:grid-cols-2 gap-5">
+    <div class="grid gap-4">
 
       {% for paragraph in profile.summary %}
 
-      <div class="card rounded-2xl p-6">
+      <div class="card rounded-2xl p-5">
 
-        <p class="text-muted leading-relaxed">
+        <p class="text-sm text-muted leading-relaxed">
           {{ paragraph }}
         </p>
 
@@ -192,29 +130,29 @@ layout: default
 </section>
 
 <!-- SKILLS -->
-<section id="skills" class="py-16 border-t border-border">
+<section id="skills" class="py-12 border-t border-border">
 
-  <div class="max-w-6xl mx-auto px-6">
+  <div class="max-w-5xl mx-auto px-6">
 
-    <p class="section-label mb-4">
+    <p class="section-label mb-3">
       Skills
     </p>
 
-    <h2 class="text-3xl font-black mb-8">
+    <h2 class="text-2xl font-black mb-6">
       Technical & Business Capabilities
     </h2>
 
-    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
+    <div class="grid md:grid-cols-2 gap-4">
 
       {% for skill in profile.technical_skills %}
 
-      <div class="card rounded-2xl p-6">
+      <div class="card rounded-2xl p-5">
 
-        <h3 class="font-black text-accent mb-3">
+        <h3 class="font-bold text-accent mb-2 text-sm">
           {{ skill.category }}
         </h3>
 
-        <p class="text-muted text-sm leading-relaxed">
+        <p class="text-sm text-muted leading-relaxed">
           {{ skill.items }}
         </p>
 
@@ -229,33 +167,33 @@ layout: default
 </section>
 
 <!-- EXPERIENCE -->
-<section id="experience" class="py-16 border-t border-border">
+<section id="experience" class="py-12 border-t border-border">
 
-  <div class="max-w-6xl mx-auto px-6">
+  <div class="max-w-5xl mx-auto px-6">
 
-    <p class="section-label mb-4">
+    <p class="section-label mb-3">
       Experience
     </p>
 
-    <h2 class="text-3xl font-black mb-8">
+    <h2 class="text-2xl font-black mb-6">
       Professional Experience
     </h2>
 
-    <div class="grid gap-5">
+    <div class="grid gap-4">
 
       {% for job in site.data.experience %}
 
-      <div class="card rounded-2xl p-7">
+      <div class="card rounded-2xl p-5">
 
-        <div class="flex flex-wrap justify-between gap-4 mb-5">
+        <div class="flex flex-wrap justify-between gap-3 mb-4">
 
           <div>
 
-            <h3 class="text-xl font-black">
+            <h3 class="text-lg font-black">
               {{ job.role }}
             </h3>
 
-            <p class="text-accent font-semibold">
+            <p class="text-accent text-sm font-semibold">
               {{ job.company }}
             </p>
 
@@ -270,7 +208,7 @@ layout: default
 
         </div>
 
-        <p class="text-muted text-sm leading-relaxed mb-5">
+        <p class="text-sm text-muted leading-relaxed mb-4">
           {{ job.description }}
         </p>
 
@@ -297,25 +235,25 @@ layout: default
 </section>
 
 <!-- LEADERSHIP -->
-<section id="leadership" class="py-16 border-t border-border">
+<section id="leadership" class="py-12 border-t border-border">
 
-  <div class="max-w-6xl mx-auto px-6">
+  <div class="max-w-5xl mx-auto px-6">
 
-    <p class="section-label mb-4">
+    <p class="section-label mb-3">
       Leadership
     </p>
 
-    <h2 class="text-3xl font-black mb-8">
+    <h2 class="text-2xl font-black mb-6">
       Leadership & Activities
     </h2>
 
-    <div class="grid md:grid-cols-2 gap-5">
+    <div class="grid gap-4">
 
       {% for item in site.data.leadership %}
 
-      <div class="card rounded-2xl p-7">
+      <div class="card rounded-2xl p-5">
 
-        <div class="flex justify-between gap-4 mb-4">
+        <div class="flex flex-wrap justify-between gap-3 mb-4">
 
           <div>
 
@@ -323,7 +261,7 @@ layout: default
               {{ item.role }}
             </h3>
 
-            <p class="text-accent font-semibold">
+            <p class="text-accent text-sm font-semibold">
               {{ item.organisation }}
             </p>
 
@@ -335,7 +273,7 @@ layout: default
 
         </div>
 
-        <p class="text-sm text-muted leading-relaxed mb-5">
+        <p class="text-sm text-muted leading-relaxed mb-4">
           {{ item.description }}
         </p>
 
@@ -362,43 +300,44 @@ layout: default
 </section>
 
 <!-- PROJECTS -->
-<section id="projects" class="py-16 border-t border-border">
+<section id="projects" class="py-12 border-t border-border">
 
-  <div class="max-w-6xl mx-auto px-6">
+  <div class="max-w-5xl mx-auto px-6">
 
-    <p class="section-label mb-4">
+    <p class="section-label mb-3">
       Projects
     </p>
 
-    <h2 class="text-3xl font-black mb-8">
+    <h2 class="text-2xl font-black mb-6">
       Selected Portfolio Projects
     </h2>
 
-    <div class="grid lg:grid-cols-2 gap-5">
+    <div class="grid gap-4">
 
       {% for project in site.data.projects %}
 
-      <div class="card rounded-2xl p-7">
+      <div class="card rounded-2xl p-5">
 
-        <div class="mb-5">
+        <div class="mb-4">
 
           <p class="text-sm text-accent font-semibold mb-2">
             {{ project.type }}
           </p>
 
-          <h3 class="text-xl font-black">
+          <h3 class="text-lg font-black">
             {{ project.title }}
           </h3>
 
         </div>
 
-        <p class="text-sm text-muted leading-relaxed mb-5">
+        <p class="text-sm text-muted leading-relaxed mb-4">
           {{ project.summary }}
         </p>
 
         <div class="grid gap-4 mb-5">
 
           <div>
+
             <p class="text-sm font-bold mb-1">
               What I did
             </p>
@@ -406,9 +345,11 @@ layout: default
             <p class="text-sm text-muted leading-relaxed">
               {{ project.what }}
             </p>
+
           </div>
 
           <div>
+
             <p class="text-sm font-bold mb-1">
               How I did it
             </p>
@@ -416,9 +357,11 @@ layout: default
             <p class="text-sm text-muted leading-relaxed">
               {{ project.how }}
             </p>
+
           </div>
 
           <div>
+
             <p class="text-sm font-bold mb-1">
               Outcome
             </p>
@@ -426,11 +369,12 @@ layout: default
             <p class="text-sm text-muted leading-relaxed">
               {{ project.outcome }}
             </p>
+
           </div>
 
         </div>
 
-        <div class="flex flex-wrap gap-2 mb-5">
+        <div class="flex flex-wrap gap-2 mb-4">
 
           {% for tech in project.tech %}
 
@@ -444,7 +388,7 @@ layout: default
 
         <a href="{{ project.link }}"
            target="_blank"
-           class="text-accent font-bold text-sm">
+           class="text-accent text-sm font-bold">
 
           View Project →
 
@@ -461,19 +405,19 @@ layout: default
 </section>
 
 <!-- CONTACT -->
-<section id="contact" class="py-16 border-t border-border">
+<section id="contact" class="py-12 border-t border-border">
 
-  <div class="max-w-3xl mx-auto px-6 text-center">
+  <div class="max-w-3xl mx-auto px-6">
 
-    <p class="section-label mb-4">
+    <p class="section-label mb-3">
       Contact
     </p>
 
-    <h2 class="text-3xl font-black mb-5">
+    <h2 class="text-2xl font-black mb-5">
       Let’s Connect
     </h2>
 
-    <p class="text-muted leading-relaxed mb-8">
+    <p class="text-sm text-muted leading-relaxed mb-7">
 
       I am currently open to graduate and early-career opportunities
       in Data Analytics, Business Intelligence, Business Analysis,
@@ -481,21 +425,21 @@ layout: default
 
     </p>
 
-    <div class="card rounded-3xl p-8">
+    <div class="card rounded-2xl p-6">
 
-      <p class="text-xl font-black mb-2">
+      <p class="font-black mb-1">
         {{ profile.email }}
       </p>
 
-      <p class="text-muted mb-6">
+      <p class="text-sm text-muted mb-5">
         Dublin, Ireland
       </p>
 
-      <div class="flex flex-wrap justify-center gap-3">
+      <div class="flex flex-wrap gap-3">
 
         <a href="{{ profile.linkedin }}"
            target="_blank"
-           class="px-5 py-2.5 rounded-full bg-accent text-white text-sm font-bold hover:bg-accentDark transition">
+           class="px-4 py-2 rounded-full bg-accent text-white text-sm font-semibold hover:bg-accentDark transition">
 
           LinkedIn
 
@@ -503,16 +447,16 @@ layout: default
 
         <a href="{{ profile.github }}"
            target="_blank"
-           class="px-5 py-2.5 rounded-full border border-border text-sm font-bold hover:border-accent hover:text-accent transition">
+           class="px-4 py-2 rounded-full border border-border text-sm font-semibold hover:border-accent hover:text-accent transition">
 
           GitHub
 
         </a>
 
         <a href="mailto:{{ profile.email }}"
-           class="px-5 py-2.5 rounded-full border border-border text-sm font-bold hover:border-accent hover:text-accent transition">
+           class="px-4 py-2 rounded-full border border-border text-sm font-semibold hover:border-accent hover:text-accent transition">
 
-          Email Me
+          Email
 
         </a>
 
