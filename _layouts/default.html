@@ -1,49 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   {% seo %}
   {% include head-custom.html %}
 </head>
 
-<body class="bg-page text-ink">
+<body>
 
-<header class="fixed top-0 w-full z-50 bg-white/85 backdrop-blur-xl border-b border-line">
-  <div class="max-w-6xl mx-auto px-5 h-20 flex items-center justify-between">
+<header class="fixed top-0 w-full z-50 bg-nav/90 backdrop-blur-xl border-b border-border">
 
-    <a href="#home" class="flex items-center gap-3">
-      <div class="w-11 h-11 rounded-2xl bg-rose text-white flex items-center justify-center font-black">
+  <div class="max-w-6xl mx-auto px-6 h-20 flex items-center justify-between">
+
+    <!-- LOGO -->
+    <a href="#home" class="flex items-center gap-4">
+
+      <div class="w-12 h-12 rounded-2xl bg-accent text-white flex items-center justify-center font-black text-lg">
         K
       </div>
+
       <div>
-        <p class="font-extrabold leading-tight">Kyaw May Pyone Shinn</p>
-        <p class="text-xs text-soft">Data • BI • Business Analysis</p>
+        <h1 class="font-extrabold text-lg leading-tight">
+          Kyaw May Pyone Shinn
+        </h1>
+
+        <p class="text-sm text-muted">
+          Data • BI • Business Analysis
+        </p>
       </div>
+
     </a>
 
-    <nav class="hidden md:flex gap-7 text-sm text-muted font-semibold">
+    <!-- NAV -->
+    <nav class="hidden md:flex gap-8 text-sm font-semibold text-muted">
+
       <a href="#about" class="nav-link">About</a>
       <a href="#skills" class="nav-link">Skills</a>
       <a href="#experience" class="nav-link">Experience</a>
       <a href="#leadership" class="nav-link">Leadership</a>
       <a href="#projects" class="nav-link">Projects</a>
       <a href="#contact" class="nav-link">Contact</a>
+
     </nav>
 
-    <a href="#contact" class="hidden md:inline-flex px-5 py-2 rounded-full bg-rose text-white font-bold text-sm hover:bg-roseDark transition">
+    <!-- CTA -->
+    <a href="#contact"
+       class="hidden md:inline-flex px-5 py-2.5 rounded-full bg-accent text-white text-sm font-bold hover:bg-accentDark transition">
+
       Hire / Connect
+
     </a>
 
   </div>
+
 </header>
 
 <main class="pt-20">
   {{ content }}
 </main>
 
-<footer class="border-t border-line py-8 text-center text-sm text-soft">
-  <p>© 2026 Kyaw May Pyone Shinn. Built with GitHub Pages, Jekyll, and Tailwind CSS.</p>
+<footer class="border-t border-border py-8 mt-10 text-center text-sm text-muted">
+  <p>
+    © 2026 Kyaw May Pyone Shinn • Built with GitHub Pages & Jekyll
+  </p>
 </footer>
 
 </body>
