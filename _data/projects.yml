@@ -1,44 +1,56 @@
 - title: "SME Sales Forecasting & Drift Detection"
-  type: "Machine Learning + BI"
-  summary: "Built a predictive sales forecasting system integrating SME data with macroeconomic indicators."
-  approach: "Used Python, Scikit-learn, TensorFlow, and Pandas to compare MLR and LSTM models and implemented anomaly detection."
-  outcome: "Achieved R² = 0.85 and built an interactive dashboard for forecasting and monitoring."
+  type: "Machine Learning + Business Intelligence"
+  summary: "Built a predictive sales forecasting and anomaly monitoring pipeline for SME decision support."
+  what: "Integrated SME sales data with macroeconomic indicators and prepared the data for forecasting and monitoring."
+  how: "Compared Multiple Linear Regression and LSTM models, then implemented autoencoder-based anomaly detection and an interactive Streamlit/Plotly dashboard."
+  outcome: "MLR achieved R² = 0.85 and RMSE ≈ 180, supporting forecasting, anomaly monitoring, and decision-making."
   tech:
-    - Python
-    - TensorFlow
-    - Pandas
-    - Streamlit
+    - "Python"
+    - "Pandas"
+    - "Scikit-learn"
+    - "TensorFlow"
+    - "Streamlit"
+    - "Plotly"
   link: "https://github.com/Kyaw-May-Pyone-Shinn"
 
-- title: "Javaholics BI & CRM Transformation"
+- title: "Javaholics Coffee: BI & CRM Transformation"
   type: "Business Intelligence + CRM"
-  summary: "Developed a CRM and BI system replacing manual business processes."
-  approach: "Designed Salesforce workflows and built Tableau dashboards for reporting and automation."
-  outcome: "Reduced order time from 3–5 min to 30–45 sec and reduced errors below 5%."
+  summary: "Delivered a Salesforce and Tableau-based BI solution to replace manual operational workflows."
+  what: "Designed customer/order data structures and CRM workflows for reporting, loyalty automation, and operational improvement."
+  how: "Used Salesforce for CRM workflow design and Tableau for dashboard reporting, connecting business processes with measurable KPIs."
+  outcome: "Reduced order time from 3–5 minutes to 30–45 seconds and reduced stock-entry errors from 20% to below 5%."
   tech:
-    - Salesforce
-    - Tableau
-    - CRM
+    - "Salesforce"
+    - "Tableau"
+    - "CRM Workflows"
+    - "KPI Reporting"
+    - "Business Process Improvement"
   link: "https://github.com/Kyaw-May-Pyone-Shinn"
 
-- title: "Chest X-ray Classification"
-  type: "Deep Learning"
-  summary: "Built CNN model for pneumonia detection using medical imaging."
-  approach: "Used TensorFlow/Keras with preprocessing, augmentation, and LIME explainability."
-  outcome: "Achieved 96.8% validation accuracy with strong recall performance."
+- title: "Chest X-ray Pneumonia Classification"
+  type: "Deep Learning + Explainable AI"
+  summary: "Developed a CNN-based image classification model for pneumonia detection using chest X-ray images."
+  what: "Prepared and trained deep learning models on 5,800+ medical images with preprocessing and augmentation."
+  how: "Used TensorFlow/Keras for CNN modelling and LIME for interpretability to understand image regions influencing predictions."
+  outcome: "Achieved 96.8% validation accuracy, 87.2% test accuracy, and 0.98 recall."
   tech:
-    - TensorFlow
-    - CNN
-    - LIME
+    - "TensorFlow"
+    - "Keras"
+    - "CNN"
+    - "Image Augmentation"
+    - "LIME"
   link: "https://github.com/Kyaw-May-Pyone-Shinn"
 
-- title: "Child Mortality Analysis"
-  type: "Machine Learning + Analytics"
-  summary: "Analysed global mortality data to identify patterns and clusters."
-  approach: "Applied K-Means clustering and Random Forest classification."
-  outcome: "Achieved ~0.83 accuracy and identified key epidemiological trends."
+- title: "Global Child Mortality Analysis"
+  type: "Machine Learning + Public Health Analytics"
+  summary: "Analysed WHO/UN child mortality data to identify age-specific disease and mortality patterns."
+  what: "Explored mortality data across infectious diseases, injuries, and non-communicable diseases across age groups."
+  how: "Applied K-Means clustering and Random Forest classification to identify trends and segment mortality patterns."
+  outcome: "Identified four clusters and achieved approximately 0.83 Random Forest accuracy, producing policy-relevant insights."
   tech:
-    - Python
-    - K-Means
-    - Random Forest
+    - "Python"
+    - "K-Means"
+    - "Random Forest"
+    - "Data Analysis"
+    - "Public Health Analytics"
   link: "https://github.com/Kyaw-May-Pyone-Shinn"
