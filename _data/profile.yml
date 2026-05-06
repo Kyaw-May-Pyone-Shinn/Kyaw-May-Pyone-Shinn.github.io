@@ -7,7 +7,7 @@ github: "https://github.com/Kyaw-May-Pyone-Shinn"
 
 summary:
   - "I am an MSc Data Analytics candidate at the National College of Ireland with a strong focus on Business Intelligence, Business Analytics, and consulting-driven problem solving."
-  - "My work combines technical analytics with stakeholder-oriented thinking. I enjoy translating complex data into business insights through dashboards, reporting frameworks, machine learning workflows, and structured recommendations."
+  - "My work combines technical analytics with stakeholder-oriented thinking. I enjoy translating complex data into business insights through dashboards, CRM reporting, machine learning workflows, and structured recommendations."
   - "I have practical exposure across retail operations, financial services, CRM systems, cloud-based analytics, and process improvement. My toolkit includes Tableau, Power BI, Salesforce, Python, SQL, Excel, and data storytelling."
 
 education:
@@ -28,18 +28,18 @@ certificates:
   - "Google Data Analytics (2024)"
   - "Google Digital Marketing (2021)"
   - "ISC2 Certified in Cybersecurity (2023)"
-  - "MikroTik Certified Network Associate (MTCNA) (2022)"
+  - "MikroTik Certified Network Associate — MTCNA (2022)"
   - "Microsoft Business Analyst Professional Certificate — In Progress, expected Aug 2026"
 
 technical_skills:
   - category: "Programming & Data Analysis"
     items: "Python, Pandas, NumPy, Scikit-learn, Plotly, Matplotlib, Seaborn, R, statistical analysis, regression modelling"
   - category: "Business Intelligence & Visualisation"
-    items: "Tableau, Power BI, dashboard development, KPI tracking, visual storytelling, reporting design"
+    items: "Tableau, Power BI, dashboard development, KPI tracking, reporting design, data storytelling"
   - category: "Database & Data Management"
     items: "MySQL, PostgreSQL, data cleaning, ETL processes, structured data analysis"
   - category: "CRM & Enterprise Tools"
-    items: "Salesforce CRM workflows, reporting, customer/order data modelling"
+    items: "Salesforce CRM workflows, CRM reporting, customer/order data modelling"
   - category: "Development & Tools"
     items: "Jupyter Notebook, VS Code, NetBeans, GitHub, project version control"
   - category: "Cloud & Analytics Platforms"
@@ -55,10 +55,10 @@ languages:
 
 highlights:
   - value: "100+"
-    label: "students supported through mentoring and onboarding"
+    label: "international students supported"
   - value: "70+"
-    label: "students supported weekly in lab assistant role"
+    label: "students supported weekly in labs"
   - value: "R² 0.85"
-    label: "sales forecasting model performance"
+    label: "forecasting model performance"
   - value: "30–45 sec"
-    label: "reduced order time in CRM/BI transformation project"
+    label: "reduced order processing time"
